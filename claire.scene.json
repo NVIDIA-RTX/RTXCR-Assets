@@ -1,0 +1,158 @@
+{
+	"models": [
+        "Claire/Claire_PonyTail.gltf",
+        "Claire/Claire_HairMain_less_strands.gltf",
+        "Claire/Claire_BabyHairFront.gltf",
+        "Claire/Claire_BabyHairBack.gltf",
+		"Claire/ClaireCombined_No_Hair.gltf",
+        "Claire/rd/reflection_discs.gltf",
+        "Claire/brow/eyebrows.gltf",
+        "Claire/bounce_card/bounce_card.gltf",
+        "Claire/hairtie/hairtie.gltf",
+        "Claire/glass_lens/glass_lens.gltf",
+        "Claire/glass_frame/glass_frame.gltf",
+        "Claire/shirt/shirt.gltf"
+	],
+	"graph": [
+        {
+			"name": "ClaireHair_Polytail",
+			"model": 0,
+			"translation": [0, 0, 0],
+			"scaling": 1,
+			"rotation": [0, 0, 0, 0]
+		},
+
+        {
+			"name": "ClaireHair_Main",
+			"model": 1,
+			"translation": [0, 0, 0],
+			"scaling": 1,
+			"rotation": [0, 0, 0, 0]
+		},
+
+        {
+			"name": "ClaireHair_BabyHairFront",
+			"model": 2,
+			"translation": [0, 0, 0],
+			"scaling": 1,
+			"rotation": [0, 0, 0, 0]
+		},
+
+        {
+			"name": "ClaireHair_BabyHairBack",
+			"model": 3,
+			"translation": [0, 0, 0],
+			"scaling": 1,
+			"rotation": [0, 0, 0, 0]
+		},
+
+		{
+			"name": "Claire",
+			"model": 4,
+			"translation": [0, 0, 0],
+			"scaling": 1,
+			"rotation": [0, 0, 0, 0]
+		},
+
+		{
+			"name": "reflection_discs",
+			"model": 5,
+			"translation": [0, -10, 0],
+			"scaling": 1,
+			"rotation": [0, 0, 0, 0]
+		},
+
+		{
+			"name": "eyebrows_sep",
+			"model": 6,
+			"translation": [0, 0, 0],
+			"scaling": 1,
+			"rotation": [0, 0, 0, 0]
+		},
+
+		{
+			"name": "bounce_card",
+			"model": 7,
+			"translation": [0, -50, 0],
+			"scaling": 1,
+			"rotation": [0, 0, 0, 0]
+		},
+
+		{
+			"name": "hairtie",
+			"model": 8,
+			"translation": [0, 0, 0],
+			"scaling": 1,
+			"rotation": [0, 0, 0, 0]
+		},
+
+		{
+			"name": "glass_lens",
+			"model": 9,
+			"translation": [0, 0, 0],
+			"scaling": 1,
+			"rotation": [0, 0, 0, 0]
+		},
+
+		{
+			"name": "glass_frame",
+			"model": 10,
+			"translation": [0, 0, 0],
+			"scaling": 1,
+			"rotation": [0, 0, 0, 0]
+		},
+
+		{
+			"name": "shirt",
+			"model": 11,
+			"translation": [0, 0, 0],
+			"scaling": 1,
+			"rotation": [0, 0, 0, 0]
+		},
+
+		{
+			"name": "Lights",
+			"children": [
+				{
+					"name": "Key",
+					"type": "DirectionalLight",
+					"rotation": [-0.245182, 0.046904, -0.705549, 0.663239],
+					"angularSize": 2.5,
+					"color": [1.0, 1.0, 0.9],
+					"irradiance": 6,
+					// "irradiance": 0.0
+				},
+				{
+					"name": "Fill",
+					"type": "DirectionalLight",
+					"rotation": [0.2770306728263339, -0.06460781737230184, -0.9206030581653187, -0.267525411025642],
+					"angularSize": 10.0,
+					"color": [1.0, 1.0, 0.9],
+					"irradiance": 1.0
+					// "irradiance": 0.0
+				},
+				{
+					"name": "Rim",
+					"type": "DirectionalLight",
+					"rotation": [-0.7351435008558539, -0.4875949532144645, -0.4654011998921521, 0.07222823470173187],
+					"angularSize": 10.0,
+					"color": [1, 0.9, 0.6],
+					"irradiance": 10.0
+					// "irradiance": 0.0
+				}
+            ]
+        },
+
+		{
+			"name": "DefaultCamera",
+            "type": "PerspectiveCamera",
+            "translation": [ 0.0, 155.0, 120.0 ],
+            "rotation": [-0.04361939740266169, 0.001438037887269524, 0.00010127644925221176, 0.9990471810481946],
+            "verticalFov": 0.28,
+            "zNear": 0.010000,
+            "enableAutoExposure": true,
+            "exposureCompensation": 0.00000,
+            "exposureValue": 0.0
+		}
+	]
+}

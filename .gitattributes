@@ -1,0 +1,8 @@
+*.dds filter=lfs diff=lfs merge=lfs -text
+*.bin filter=lfs diff=lfs merge=lfs -text
+*.gltf filter=lfs diff=lfs merge=lfs -text
+Claire/*.jpg filter=lfs diff=lfs merge=lfs -text
+Claire/*.png filter=lfs diff=lfs merge=lfs -text
+Claire/*.gltf filter=lfs diff=lfs merge=lfs -text
+Claire/*.bin filter=lfs diff=lfs merge=lfs -text
+Claire/shirt/*.png filter=lfs diff=lfs merge=lfs -text
